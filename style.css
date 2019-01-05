@@ -28,6 +28,7 @@ a:hover {
 body {
     flex-direction: column;
     font-size: x-large;
+    justify-content: flex-start;
     }
 a {
     font-size: x-large;

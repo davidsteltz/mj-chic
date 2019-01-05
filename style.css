@@ -13,8 +13,6 @@ a {
     text-decoration: none;
 }
 
-
-
 a:hover {
     text-decoration: underline;
 }
@@ -23,8 +21,23 @@ a:hover {
 .logo {
     height: 50vw;
     width: auto;
+    flex-grow: 1;
 }
 
-/* @media only screen and (max-width: 500px) {
-
-} */
+@media only screen and (max-width: 500px) {
+body {
+    flex-direction: column;
+    font-size: x-large;
+    }
+a {
+    font-size: x-large;
+}
+.logo {
+    height: auto;
+    width: 100vw;
+}
+.links {
+    display: flex;
+    align-items: center;
+}
+}
